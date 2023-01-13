@@ -7,7 +7,7 @@ const Information = () => {
         <>
             <div className='presentation'>
                 <div className="presentation_animation">
-                <div className="lds-dual-ring"></div>
+              
 
                 <img 
                     className='presentation_image'
