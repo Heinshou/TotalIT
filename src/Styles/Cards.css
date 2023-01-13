@@ -1,0 +1,147 @@
+
+
+.long_info_container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    background-color: #04407e;
+}
+
+.long_info{
+    display: inline-block;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 2%;
+}
+
+.long_info2{
+    width: 20%;
+    margin: 0px 5%;
+}
+
+.long_info3{
+    width: 20%;
+    margin: 0px 2%;
+}
+
+.title_long_info{
+    text-align: center;
+    color: #fff;
+    
+}
+
+.text_long_info {
+    margin: 0px 5%;
+    text-align: center;
+    margin-top: 15%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 5%;
+    color: #04407e;
+}
+
+
+
+.short_info_container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFf;
+}
+.short_info{
+    display: inline-block;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 5%;
+}
+
+.short_info2{
+    width: 20%;
+    margin: 0px 5%;
+}
+
+.short_info3{
+    width: 20%;
+    margin: 0px 5%;
+}
+
+.title_short_info{
+    text-align: center;
+    color: #04407e;
+}
+
+.text_short_info{
+    margin: 0px 5%;
+    text-align: center;
+    margin-top: 15%;
+    background-color: #04407e;
+    border-radius: 10px;
+    padding: 5%;
+    color: #fff;
+}
+
+.icon_long_info{
+    width: 25%;
+    height:fit-content;
+    font-size: 200%;
+    background-color:#04407e;
+    color: #FFF;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.icon2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.icon3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.icon_short_info{
+    width: 25%;
+    height:fit-content;
+    font-size: 200%;
+    background-color:#fff;
+    color: #04407e;
+}
+
+.icon4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.icon5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.icon6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}

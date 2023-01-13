@@ -1,0 +1,33 @@
+.bussines_card{
+    width: 50%;
+    position: absolute;
+    margin-right: 25%;
+}
+
+.Logo{
+    width: 52%;
+}
+
+.Title{
+    display: inline-block;
+    font-size: 621%;
+    color: #fff;
+}
+
+.Title1{
+    position: absolute;
+    top: 8%;
+    left: 53%;
+}
+
+.Title2{
+    position: absolute;
+    top: 33%;
+    left: 82.7%;
+}
+
+.Title3{
+    position: absolute;
+    top: 58%;
+    left: 88%;
+}

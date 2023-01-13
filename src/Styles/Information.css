@@ -1,0 +1,108 @@
+i {
+    color: white;
+    background-color: black;
+}
+
+.presentation {
+    max-width: 100%;
+    background-color: #fff;
+    display: flex;
+    height: 600px;
+    /* text-align: center; */
+    align-items: center;
+
+}
+
+.presentation_animation {
+    width: 50%;
+    height: 75%;
+    font-size: 400px;
+    color: #04407e ;
+}
+
+.lds-dual-ring {
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+  }
+  .lds-dual-ring:after {
+    content: " ";
+    display: block;
+    position: relative;
+    width: 80%;
+    height: 80%;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid #04407e;
+    border-color: #04407e transparent #04407e transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+    left:61% ;
+  }
+  @keyframes lds-dual-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+
+
+
+
+
+.presentation_image{
+    top: -50%;
+    left: 34%;
+    position: relative;
+    display: block;
+    z-index: 2;
+    border-radius: 50%;
+    width: 34%;
+    height: 50%;
+}
+
+.presentation_image2{
+    top: -130%;
+    left: 45%;
+    position: relative;
+    display: block;
+    z-index: 3;
+    border-radius: 50%;
+    width: 34%;
+    height: 50%;
+}
+
+.presentation_image3{
+    top: -150%;
+    left: 54%;
+    position: relative;
+    display: block;
+    z-index: 4;
+    border-radius: 50%;
+    width: 34%;
+    height: 50%;
+}
+
+.presentation_info {
+    text-align: center;
+    display: grid;
+   width: 50%;
+   height: 45%; 
+   align-items: center;
+}
+
+.presentation_title{
+    color: #04407e;
+}
+
+.presentation_text {
+
+  background-color: #04407e;
+  border-radius: 10px;
+  padding: 30px;
+  width: 75%;
+  margin: 0px auto;
+  color: #fff;
+}
