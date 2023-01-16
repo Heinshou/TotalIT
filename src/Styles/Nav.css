@@ -8,13 +8,13 @@
 }
 
 .Logo_nav{
-    width: 10%;
+    width: 8%;
     margin-left: 5px;
 }
 
 .Title_nav{
     display: inline-block;
-    font-size: 20px;
+    font-size: 15px;
     color: #fff;
 }
 
@@ -50,7 +50,7 @@
     margin: 0px 5px 0px 5px;
     font-weight: 600;
     font-family: 'Roboto', sans-serif;
-    font-size: 15px;
+    font-size: 12px;
     cursor: pointer;
 }
 
@@ -59,4 +59,67 @@
     cursor: hand;
     background-color:#052d55 ;
     transition: 0.5s;
+}
+
+@media screen and (max-width: 1024px) {
+    .button{
+        font-size: 14px;
+    }
+
+    .Logo_nav {
+        width: 10%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .buttons{ 
+        width: 75%;
+    }
+
+    .button{
+        font-size: 12px;
+    }
+
+    .Logo_nav {
+        width: 12%;
+    }
+
+    .Title_nav1{
+        left: 8%;
+    }
+    
+    .Title_nav2{
+        left: 12%;
+    }
+    
+    .Title_nav3{    
+        left: 12.5%;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    .buttons{ 
+        display: none;
+    }
+
+    .button{
+        font-size: 12px;
+    }
+
+    .Logo_nav {
+        width: 20%;
+    }
+
+    .Title_nav1{
+        left: 20%;
+    }
+    
+    .Title_nav2{
+        left: 30%;
+    }
+    
+    .Title_nav3{    
+        left: 32%;
+    }
 }

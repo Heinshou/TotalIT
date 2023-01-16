@@ -18,71 +18,11 @@ i {
     height: 75%;
     font-size: 400px;
     color: #04407e ;
+    overflow: hidden;
 }
-
-.lds-dual-ring {
-    display: inline-block;
-    width: 400px;
-    height: 400px;
-  }
-  .lds-dual-ring:after {
-    content: " ";
-    display: block;
-    position: relative;
-    width: 80%;
-    height: 80%;
-    margin: 8px;
-    border-radius: 50%;
-    border: 6px solid #04407e;
-    border-color: #04407e transparent #04407e transparent;
-    animation: lds-dual-ring 5.2s linear infinite;
-    left:61% ;
-  }
-  @keyframes lds-dual-ring {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-  
-
-
-
-
 
 .presentation_image{
-    top: -50%;
-    left: 34%;
-    position: relative;
-    display: block;
-    z-index: 2;
-    border-radius: 50%;
-    width: 34%;
-    height: 50%;
-}
-
-.presentation_image2{
-    top: -130%;
-    left: 45%;
-    position: relative;
-    display: block;
-    z-index: 3;
-    border-radius: 50%;
-    width: 34%;
-    height: 50%;
-}
-
-.presentation_image3{
-    top: -150%;
-    left: 54%;
-    position: relative;
-    display: block;
-    z-index: 4;
-    border-radius: 50%;
-    width: 34%;
-    height: 50%;
+  max-width:100%;
 }
 
 .presentation_info {
@@ -102,7 +42,39 @@ i {
   background-color: #04407e;
   border-radius: 10px;
   padding: 30px;
-  width: 75%;
+  width: 50%;
   margin: 0px auto;
   color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+
+  .presentation {
+  height: 500px;
+  align-items:flex-start;
+  font-size: 16px;
+}
+
+.presentation_image{
+  margin-top: 25%;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+
+.presentation {
+  height: 500px;
+  align-items:flex-start;
+  font-size: 12px;
+}
+
+.presentation_info{
+  margin-top: 2%;
+}
+
+.presentation_image{
+  margin-top: 35%;
+}
+
 }

@@ -11,14 +11,14 @@ const Cards = () => {
             <div className="long_info_container">
                 <div 
                     className="long_info"
-                    data-aos="fade-left"
-                    data-aos-offset="200"
+                    data-aos="fade-down-right"
+                    data-aos-offset="10"
                     data-aos-delay="50"
-                    data-aos-duration="1000"
+                    data-aos-duration="200"
                     data-aos-easing="ease-in-out"
                     data-aos-mirror="true"
                     data-aos-once="false"
-                    data-aos-anchor-placement="top-center"
+                    data-aos-anchor-placement="top"
                 >
                     <div className='icon_long_info icon'>
                         <BiMedal />
@@ -30,14 +30,14 @@ const Cards = () => {
                 </div>
                 <div
                     className="long_info2"
-                    data-aos="fade-left"
-                    data-aos-offset="200"
+                    data-aos="fade-down"
+                    data-aos-offset="10"
                     data-aos-delay="50"
-                    data-aos-duration="1000"
+                    data-aos-duration="300"
                     data-aos-easing="ease-in-out"
                     data-aos-mirror="true"
                     data-aos-once="false"
-                    data-aos-anchor-placement="top-center">
+                    data-aos-anchor-placement="top">
                     <div className='icon_long_info icon2'>
                         <BsFillShieldLockFill />
                     </div>
@@ -48,14 +48,14 @@ const Cards = () => {
                 </div>
                 <div 
                     className="long_info3"
-                    data-aos="fade-left"
-                    data-aos-offset="200"
+                    data-aos="fade-down-left"
+                    data-aos-offset="10"
                     data-aos-delay="50"
-                    data-aos-duration="1000"
+                    data-aos-duration="400"
                     data-aos-easing="ease-in-out"
                     data-aos-mirror="true"
                     data-aos-once="false"
-                    data-aos-anchor-placement="top-center"
+                    data-aos-anchor-placement="top"
                     >
                     <div className='icon_long_info icon3'>
                         <AiOutlineRise />
@@ -70,10 +70,10 @@ const Cards = () => {
             <div className="short_info_container">
                 <div 
                     className="short_info"
-                    data-aos="fade-right"
+                    data-aos="fade-up-right"
                     data-aos-offset="200"
                     data-aos-delay="50"
-                    data-aos-duration="1000"
+                    data-aos-duration="500"
                     data-aos-easing="ease-in-out"
                     data-aos-mirror="true"
                     data-aos-once="false"
@@ -87,10 +87,10 @@ const Cards = () => {
                 </div>
                 <div 
                     className="short_info2"
-                    data-aos="fade-right"
+                    data-aos="fade-up"
                     data-aos-offset="200"
                     data-aos-delay="50"
-                    data-aos-duration="1000"
+                    data-aos-duration="500"
                     data-aos-easing="ease-in-out"
                     data-aos-mirror="true"
                     data-aos-once="false"
@@ -108,7 +108,7 @@ const Cards = () => {
                     data-aos="fade-up-left"
                     data-aos-offset="200"
                     data-aos-delay="50"
-                    data-aos-duration="1000"
+                    data-aos-duration="500"
                     data-aos-easing="ease-in-out"
                     data-aos-mirror="true"
                     data-aos-once="false"

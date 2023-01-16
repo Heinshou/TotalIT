@@ -10,7 +10,7 @@
 
 .Title{
     display: inline-block;
-    font-size: 621%;
+    font-size: 600%;
     color: #fff;
 }
 
@@ -31,3 +31,46 @@
     top: 58%;
     left: 88%;
 }
+
+@media screen and (max-width: 1024px) {
+    .Title1 {
+        left: 53%;
+    }
+
+    .Title2 {
+        left: 75%;
+    }
+
+    .Title3 {
+        left: 79%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .Title1 {
+        left: 53%;
+    }
+
+    .Title2 {
+        left: 75%;
+    }
+
+    .Title3 {
+        left: 79%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Logo {
+        width: 60%;
+    }
+
+    .Title2 {
+        left: 83%;
+    }
+
+    .Title3 {
+        left: 88%;
+    }
+}
+

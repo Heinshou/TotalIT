@@ -2,7 +2,7 @@ import './App.css'
 import DLandingPage from './Components/DLandingPage'
 import Information from './Components/Information'
 import Cards from './Components/Cards'
-import Form from './Components/Form'
+import FormData from './Components/FormData'
 
 function App() {
 
@@ -12,7 +12,7 @@ function App() {
       <DLandingPage/>
       <Information/>
       <Cards/>
-      <Form/>
+      <FormData/>
     </div>
   )
 }
