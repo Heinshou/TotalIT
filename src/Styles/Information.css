@@ -153,7 +153,7 @@ i {
 
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 426px) {
 
   .presentation {
     height: 600px;
@@ -183,6 +183,13 @@ i {
 }
 
 @media screen and (max-width: 320px) {
+
+  .presentation_info {
+    display: initial ;
+   height: 100%;
+   width: 100%;
+   overflow: hidden;
+}
 
 .presentation_title{
   font-size: 25px;

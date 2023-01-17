@@ -55,7 +55,7 @@ const Cards = () => {
                     data-aos-easing="ease-in-out"
                     data-aos-mirror="true"
                     data-aos-once="false"
-                    data-aos-anchor-placement="top"
+                    data-aos-anchor-placement="bottom"
                     >
                     <div className='icon_long_info icon3'>
                         <AiOutlineRise />

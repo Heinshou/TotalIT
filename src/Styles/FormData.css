@@ -114,3 +114,61 @@ body {
 		margin-top: 3%;
 	}
 }
+
+@media screen and (max-width: 1440px) {
+	
+	.Titulo_formulario{
+		font-size: 30px;
+		margin-left: 32% ;
+	}
+
+}
+
+@media screen and (max-width: 1024px) {
+	
+	.Titulo_formulario{
+		margin-left: 29% ;
+	}
+
+	.formulario button[type="submit"] {
+		margin-top: 3%;
+		margin-left: 7%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	
+	.Titulo_formulario{
+		font-size: 20px;
+		margin-left: 33% ;
+	}
+
+	.formulario button[type="submit"] {
+		margin-top: 3%;
+		margin-left: 9%;
+	}
+}
+
+@media screen and (max-width: 426px) {
+	.formulario {
+		width: 55%;
+	}
+
+	.Titulo_formulario{
+		font-size: 20px;
+		margin-left: 24% ;
+	}
+
+	.formulario > div {
+		margin-bottom: 20px;
+		margin: 0px 0px 0px 0px;
+	}
+	
+
+	.formulario button[type="submit"] {
+		margin-top: 3%;
+		margin-left: 7%;
+	}
+}
+
+
