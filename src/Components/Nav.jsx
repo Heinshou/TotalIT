@@ -15,9 +15,9 @@ const Nav = () => {
                     </h1>
                 </div>
                 <div className='buttons'>
-                    <button className="button">Quienes Somos</button>
-                    <button className="button">Informacion</button>
-                    <button className="button">Contacto</button>
+                    <button className="button" onClick={() => window.scrollTo(725, 725)}>Quienes Somos</button>
+                    <button className="button" onClick={() => window.scrollTo(1550, 1550)}>Informacion</button>
+                    <button className="button" onClick={() => window.scrollTo(3000, 3000)}>Contacto</button>
                 </div>
             </div>
         </>
