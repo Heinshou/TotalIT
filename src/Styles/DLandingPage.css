@@ -21,3 +21,12 @@
 }
 
 
+@media screen and (max-width: 425px) {
+    .container{
+        height: 80vh;
+    }
+    
+    .Image_landing_Page{
+        height: 0%;
+    }
+}

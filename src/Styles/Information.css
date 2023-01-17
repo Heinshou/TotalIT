@@ -47,34 +47,154 @@ i {
   color: #fff;
 }
 
+@media screen and (max-width: 2560px) {
+
+.presentation {
+    height: 800px;
+}
+
+.presentation_info {
+    display: initial ;
+   height: 100%; 
+}
+
+.presentation_title{
+  font-size: 4rem;
+  height: 10%;
+  margin-top: 7.5%;
+}
+
+.presentation_text {
+  font-size: 2.6rem;
+  height: 60%;
+  width: 60%;
+}
+
+}
+
+@media screen and (max-width: 1440px) {
+  .presentation {
+    height: 600px;
+}
+
+.presentation_info {
+    display: initial ;
+   height: 100%;
+}
+
+.presentation_title{
+  font-size: 30px;
+  margin-top: 15%;
+}
+
+.presentation_text {
+  font-size: 20px;
+  height: 225px;
+  width: 80%;
+}
+
+  
+}
+
 @media screen and (max-width: 1024px) {
 
   .presentation {
-  height: 500px;
-  align-items:flex-start;
-  font-size: 16px;
+    height: 600px;
 }
 
-.presentation_image{
-  margin-top: 25%;
+.presentation_animation {
+  height: 95%;
+}
+
+.presentation_info {
+    display: initial ;
+   height: 100%;
+}
+
+.presentation_title{
+  font-size: 25px;
+  margin-top: 15%;
+}
+
+.presentation_text {
+  font-size: 18px;
+  height: 325px;
+  width: 60%;
 }
 
 }
 
 @media screen and (max-width: 768px) {
 
-.presentation {
-  height: 500px;
-  align-items:flex-start;
-  font-size: 12px;
+  .presentation {
+    height: 600px;
 }
 
-.presentation_info{
-  margin-top: 2%;
+.presentation_animation {
+  height: 72%;
+  margin-bottom: 20%;
 }
 
-.presentation_image{
-  margin-top: 35%;
+.presentation_info {
+    display: initial ;
+   height: 100%;
+}
+
+.presentation_title{
+  font-size: 25px;
+  margin-top: 15%;
+}
+
+.presentation_text {
+  font-size: 15px;
+  height: 325px;
+  width: 60%;
+}
+
+}
+
+@media screen and (max-width: 425px) {
+
+  .presentation {
+    height: 600px;
+}
+
+.presentation_animation {
+  display: none;
+}
+
+.presentation_info {
+    display: initial ;
+   height: 100%;
+   width: 100%;
+}
+
+.presentation_title{
+  font-size: 25px;
+  margin-top: 15%;
+}
+
+.presentation_text {
+  font-size: 15px;
+  height: 300px;
+  width: 60%;
+}
+
+}
+
+@media screen and (max-width: 320px) {
+
+.presentation_title{
+  font-size: 25px;
+  margin-top: 15%;
+}
+
+.presentation_text {
+  font-size: 14px;
+  height: 350px;
+  padding: 15px;
+  padding-top: 30px;
+  width: 60%;
 }
 
 }

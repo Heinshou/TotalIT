@@ -32,45 +32,81 @@
     left: 88%;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 2560px) {
+    .Title{
+        display: inline-block;
+        font-size: 12.7rem;
+        color: #fff;
+    }
+
     .Title1 {
-        left: 53%;
+        left: 48%;
     }
 
     .Title2 {
-        left: 75%;
+        left: 79.5%;
     }
 
     .Title3 {
+        left: 85%;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .Title{
+        font-size: 11rem;
+    }
+
+    .Title1 {
+        left: 50%;;
+    }
+
+    .Title2 {
         left: 79%;
+    }
+
+    .Title3 {
+        left: 84%;
     }
 }
 
 @media screen and (max-width: 1024px) {
+    .Title{
+        font-size: 8rem;
+    }
+
     .Title1 {
         left: 53%;
     }
 
     .Title2 {
-        left: 75%;
+        left: 82.2%;
     }
 
     .Title3 {
-        left: 79%;
+        left: 87.5%;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .Logo {
-        width: 60%;
+    .Title{
+        font-size: 6rem;
     }
 
-    .Title2 {
-        left: 83%;
-    }
+}
 
-    .Title3 {
-        left: 88%;
+@media screen and (max-width: 425px) {
+    .bussines_card{
+        margin-right: 25%;
     }
+    
+    .Logo{
+        width: 55%;
+    }
+    
+    .Title{
+        font-size: 3rem;
+    }
+    
 }
 

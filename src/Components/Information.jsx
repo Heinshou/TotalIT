@@ -12,8 +12,8 @@ const Information = () => {
                 <div className="presentation_info">
                     <h2
                         className='presentation_title'
-                        data-aos="flip-up"
-                        data-aos-duration="1500"
+                        // data-aos="flip-up"
+                        // data-aos-duration="1500"
                     >¿Por qué elegir Total IT Financial?</h2>
                     <p
                         className='presentation_text'

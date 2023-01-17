@@ -102,3 +102,15 @@ body {
 	width: auto;
     
 }
+
+@media screen and (max-width: 2560px) {
+	
+	.Titulo_formulario{
+		font-size: 30px;
+		margin-left: 38% ;
+	}
+
+	.formulario button[type="submit"] {
+		margin-top: 3%;
+	}
+}
