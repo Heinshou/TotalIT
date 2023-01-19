@@ -2,6 +2,7 @@ import React, {useState, useRef} from 'react'
 import '../Styles/FormData.css'
 import { Formik, Form, Field, ErrorMessage } from 'formik'
 import emailjs from '@emailjs/browser';
+import fourthImage from '../assets/img/cuartaImagen.jpg'
 
 
 const FormData = () => {
@@ -27,7 +28,7 @@ const FormData = () => {
 
     return (
         <div className="contenedor">
-            
+            <img src={fourthImage} alt="ImagenDeContacto" className='image_form' />
         <Formik
         
             initialValues={{

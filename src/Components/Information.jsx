@@ -1,13 +1,13 @@
 import React from 'react'
 import '../Styles/Information.css'
-import { BsGear } from "react-icons/bs";
+import secondImage from '../assets/img/segundaImagen.jpg'
 
 const Information = () => {
     return (
         <>
             <div className='presentation'>
                 <div className="presentation_animation">
-                    <img className='presentation_image' src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/62705578169901.5c9ccafbbdec8.jpg" alt="" ></img>
+                    <img className='presentation_image' src={secondImage} alt="" ></img>
                 </div>
                 <div className="presentation_info">
                     <h2

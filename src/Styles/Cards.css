@@ -350,6 +350,138 @@
 
 }
 
+@media screen and (max-width: 1024px) {
+    .long_info {
+        font-size: 18px;
+    }
+
+    .long_info2 {
+        font-size: 18px;
+    }
+
+    .long_info3 {
+        font-size: 17px;
+    }
+
+    .icon_long_info {
+        font-size: 5rem;
+    }
+
+    .title_long_info {
+        font-size: 18px;
+    }
+
+    .short_info_container {
+        height: 700px;
+    }
+
+    .short_info {
+        font-size: 21px;
+    }
+
+    .short_info2 {
+        font-size: 18px;
+    }
+
+    .short_info3 {
+        font-size: 20px;
+
+    }
+
+
+    .icon_short_info {
+        width: 25%;
+        height: fit-content;
+        font-size:6rem;
+        color: #04407e;
+    }
+
+    .icon4 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .icon5 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .icon6 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .title_short_info {
+        font-size: 22px;
+    }
+
+    .text_short_info {
+        height: 70%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .long_info_container {
+        display: initial;
+        height: 800px;
+    }
+
+    .long_info {
+        width: 70%;
+        margin-left: 15%;
+        margin-top: 10%;
+    }
+
+    .long_info2 {
+        width: 70%;
+        margin-left: 15%;
+        margin-top: 10%;
+    }
+
+    .long_info3 {
+        width: 70%;
+        margin-left: 15%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+   
+    .short_info_container{
+        display: grid;
+        height: 1100px;
+        align-items: baseline;
+    }
+    .text_short_info {
+        margin-top: 5%;
+        height: 50%;
+    }
+
+    .short_info {
+        width: 70%;
+        margin: 0% 0% 0%15%;
+        height: 40%;
+    }
+
+    .short_info2{
+        width: 70%;
+        margin: 0% 0% 0px 15%;
+        height: 40%;
+    }
+
+    .short_info3{
+        width: 70%;
+        margin: 0% 0% 0px 15%;
+        height: 40%;
+    }
+}
+
+
 @media screen and (max-width: 426px) {
     .long_info_container {
         display: initial;
