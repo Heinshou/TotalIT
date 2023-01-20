@@ -20,16 +20,17 @@ body {
 	display: flex;
 	align-items: flex-start;
 	justify-content: center;
+	overflow: hidden;
+
 }
 
 .formulario {
-	position: absolute;
     width: 45%;
     height: 60%;
 	min-width: 200px;
-	margin-top: 65px;
+	margin-top: 5%;
     margin-bottom: 50px;
-	background: #fff;
+	background: rgba(255, 255, 255, 0.728);
 	border-radius: 5px;
 	padding: 20px;
 	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -106,9 +107,18 @@ body {
 
 .image_form{
 	display: flex;
+	position: absolute;
+	width: 90%;
+	height: 80%;
 }
 
 @media screen and (max-width: 2560px) {
+
+	.contenedor {
+		display: flex;
+		justify-content: center;
+		background-size: cover;
+	}
 	
 	.Titulo_formulario{
 		font-size: 30px;
@@ -118,6 +128,14 @@ body {
 	.formulario button[type="submit"] {
 		margin-top: 3%;
 	}
+
+	.image_form{
+		display: flex;
+		position: absolute;
+		width: 90%;
+		/* max-height: 80%; */
+	}
+	
 }
 
 @media screen and (max-width: 1440px) {
@@ -126,6 +144,7 @@ body {
 		font-size: 30px;
 		margin-left: 32% ;
 	}
+	
 
 }
 
@@ -144,8 +163,8 @@ body {
 @media screen and (max-width: 768px) {
 	
 	.Titulo_formulario{
-		font-size: 20px;
-		margin-left: 33% ;
+		font-size: 25px;
+		margin-left: 30% ;
 	}
 
 	.formulario button[type="submit"] {

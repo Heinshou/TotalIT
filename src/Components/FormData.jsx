@@ -27,8 +27,8 @@ const FormData = () => {
       };
 
     return (
-        <div className="contenedor">
-            <img src={fourthImage} alt="ImagenDeContacto" className='image_form' />
+        <div className="contenedor" style={{backgroundImage:`linear-gradient( to bottom right, rgba(46, 69, 122, 0.3) 0% , rgba(0, 0, 0, 0.6) 100%), url(${fourthImage})`}}>
+            {/* <img src={fourthImage} alt="ImagenDeContacto" className='image_form' /> */}
         <Formik
         
             initialValues={{

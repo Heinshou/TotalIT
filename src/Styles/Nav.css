@@ -4,6 +4,7 @@
     display: flex;
     position: absolute;
     top: 0px;
+    background-color: #052d55;
     
 }
 
@@ -43,7 +44,7 @@
 }
 
 .button{
-    background-color: #04407e;
+    background-color: #052d55;
     color: #fff;
     border: none;
     padding: 0px 10px 0px 10px;
@@ -66,7 +67,7 @@
         width: 50%;
     }
     .button{
-        font-size: 1.5rem;
+        font-size: 2.5rem;
     }
 
     .Logo_nav {
@@ -79,12 +80,12 @@
     }
     
     .Title_nav2{
-        left: 9%;
+        left: 8%;
         font-size: 2rem;
     }
     
     .Title_nav3{    
-        left: 9.5%;
+        left: 8.5%;
         font-size: 2rem;
     }
 }

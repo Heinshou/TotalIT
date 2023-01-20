@@ -5,6 +5,7 @@ import { BsFillShieldLockFill, BsFillPeopleFill } from "react-icons/bs";
 import { BiMedal, BiRun } from "react-icons/bi";
 
 
+
 const Cards = () => {
     return (
         <div className='cards_container'>
@@ -14,7 +15,7 @@ const Cards = () => {
                     data-aos="fade-down-right"
                     data-aos-offset="10"
                     data-aos-delay="50"
-                    data-aos-duration="200"
+                    data-aos-duration="300"
                     data-aos-easing="ease-in-out"
                     data-aos-mirror="true"
                     data-aos-once="false"
@@ -51,7 +52,7 @@ const Cards = () => {
                     data-aos="fade-down-left"
                     data-aos-offset="10"
                     data-aos-delay="50"
-                    data-aos-duration="400"
+                    data-aos-duration="300"
                     data-aos-easing="ease-in-out"
                     data-aos-mirror="true"
                     data-aos-once="false"

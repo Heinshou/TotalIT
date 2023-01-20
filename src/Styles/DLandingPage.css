@@ -5,7 +5,7 @@
 #fff */
 
 
-.container{
+.landing_Page_container{
     background-color:#04407e ;
     /* background-color:#fff ; */
     height: 100vh;
@@ -20,13 +20,20 @@
     display: flex;
 }
 
+@media screen and (max-width: 1440px) {
+    .landing_Page_container{
+        height: 90vh;
+    }
 
-@media screen and (max-width: 425px) {
-    .container{
-        height: 80vh;
+}
+
+
+@media screen and (max-width: 426px) {
+    .landing_Page_container{
+        height: 60vh;
     }
     
     .Image_landing_Page{
-        height: 0%;
+        height: 40%;
     }
 }
